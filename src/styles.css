@@ -304,6 +304,10 @@ p {
   object-fit: cover;
   object-position: center;
   filter: saturate(0.96) contrast(0.98);
+  animation: hero-image-drift 32s ease-in-out infinite;
+  transform: scale(1.04) translate3d(0, 0, 0);
+  transform-origin: center;
+  will-change: transform;
 }
 
 .hero-media::after {
@@ -314,6 +318,28 @@ p {
     linear-gradient(90deg, rgba(10, 32, 26, 0.42), rgba(10, 32, 26, 0.08) 58%, rgba(10, 32, 26, 0.04)),
     linear-gradient(0deg, rgba(10, 32, 26, 0.12), transparent 46%);
   pointer-events: none;
+}
+
+@keyframes hero-image-drift {
+  0% {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+
+  28% {
+    transform: scale(1.12) translate3d(-2.4%, -0.4%, 0);
+  }
+
+  56% {
+    transform: scale(1.12) translate3d(2.4%, 0.3%, 0);
+  }
+
+  78% {
+    transform: scale(1.08) translate3d(0.8%, -0.2%, 0);
+  }
+
+  100% {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
 }
 
 .hero-panel {
@@ -876,6 +902,21 @@ p {
 
   .site-footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-media > img {
+    animation: none;
+    transform: none;
+  }
+
+  .button {
+    transition: none;
   }
 }
 
