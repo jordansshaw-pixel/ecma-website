@@ -261,15 +261,27 @@ p {
 .eyebrow {
   margin-bottom: 12px;
   color: var(--gold-600);
-  font-size: 12px;
-  font-weight: 740;
+  font-family: "Lora", Georgia, serif;
+  font-size: clamp(14px, 1.25vw, 17px);
+  font-style: italic;
+  font-weight: 500;
   letter-spacing: 0;
   line-height: 1.2;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .eyebrow-light {
   color: var(--gold-300);
+}
+
+.hero-panel .eyebrow {
+  color: var(--gold-300);
+  font-family: "Lora", Georgia, serif;
+  font-size: clamp(15px, 1.45vw, 20px);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.25;
+  text-transform: none;
 }
 
 .hero {
