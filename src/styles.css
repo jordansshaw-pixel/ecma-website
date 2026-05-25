@@ -304,8 +304,8 @@ p {
   object-fit: cover;
   object-position: center;
   filter: saturate(0.96) contrast(0.98);
-  animation: hero-image-drift 32s ease-in-out infinite;
-  transform: scale(1.04) translate3d(0, 0, 0);
+  animation: hero-image-drift 20s ease-in-out infinite;
+  transform: scale(1.06) translate3d(0, 0, 0);
   transform-origin: center;
   will-change: transform;
 }
@@ -322,23 +322,23 @@ p {
 
 @keyframes hero-image-drift {
   0% {
-    transform: scale(1.04) translate3d(0, 0, 0);
+    transform: scale(1.06) translate3d(0, 0, 0);
   }
 
   28% {
-    transform: scale(1.12) translate3d(-2.4%, -0.4%, 0);
+    transform: scale(1.2) translate3d(-5.6%, -0.8%, 0);
   }
 
   56% {
-    transform: scale(1.12) translate3d(2.4%, 0.3%, 0);
+    transform: scale(1.2) translate3d(5.6%, 0.6%, 0);
   }
 
   78% {
-    transform: scale(1.08) translate3d(0.8%, -0.2%, 0);
+    transform: scale(1.12) translate3d(1.8%, -0.4%, 0);
   }
 
   100% {
-    transform: scale(1.04) translate3d(0, 0, 0);
+    transform: scale(1.06) translate3d(0, 0, 0);
   }
 }
 
