@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Emerald City Mortgage Advisors provides calm, advisor-led mortgage guidance for homebuyers, homeowners, investors, and commercial borrowers."
+      content="Emerald City Mortgage Advisors helps homebuyers talk through mortgage options before starting a formal application."
     />
-    <title>Emerald City Mortgage Advisors</title>
+    <title>Emerald City Mortgage Advisors | Mortgage Guidance</title>
     <link rel="preconnect" href="https://images.unsplash.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,299 +20,504 @@
   <body>
     <header class="site-top" id="top">
       <div class="trust-bar">
-        <p>Guided mortgage advice for homebuyers, investors, and business owners.</p>
-        <a href="#contact">Start with a consultation</a>
+        <p>Guided mortgage advice before you decide whether to apply.</p>
+        <a href="#start-conversation">Talk through your options</a>
       </div>
 
       <div class="site-header">
         <a class="brand" href="#top" aria-label="Emerald City Mortgage Advisors home">
           <img src="./assets/ecma-logo-emerald.png" alt="Emerald City Mortgage Advisors" />
         </a>
+
         <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
           Menu
         </button>
+
         <nav class="nav-links" id="primary-nav" aria-label="Primary navigation">
-          <a href="#loan-options">Home Loans</a>
-          <a href="#loan-options">Commercial Loans</a>
+          <a href="#purchase-options">Buying Options</a>
+          <a href="#refinance">Refinance Review</a>
+          <a href="#partners">Agent Partners</a>
           <a href="#process">Process</a>
-          <a href="#faq">Resources</a>
-          <a href="#advisor">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#advisor">Team</a>
+          <a href="#start-conversation">Contact</a>
         </nav>
+
         <div class="header-actions">
-          <a class="button button-small button-ghost" href="#contact">Schedule Consultation</a>
-          <a class="button button-small button-primary" href="#contact">Apply Now</a>
+          <a class="button button-secondary button-small" href="#start-conversation">Start a Conversation</a>
+          <a class="button button-primary button-small" href="#start-conversation">Apply When Ready</a>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="hero section-wrap" aria-labelledby="hero-title">
-        <div class="hero-media">
-          <img
-            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=82"
-            alt="A warm modern home interior with natural light"
-          />
-          <div class="hero-panel">
-            <p class="eyebrow">Mortgage Guidance With Local Judgment</p>
-            <h1 id="hero-title">Clear mortgage advice for <em>your next move.</em></h1>
-            <p>
-              Emerald City Mortgage Advisors helps borrowers understand the path, compare options,
-              and move forward with confidence.
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content section-wrap">
+          <div class="hero-glass">
+            <p class="eyebrow eyebrow-light">Mortgage guidance before the paperwork</p>
+            <h1 id="hero-title">More mortgage options, explained by a real advisor.</h1>
+            <p class="hero-copy">
+              Emerald City Mortgage Advisors helps buyers, homeowners, and referral partners
+              understand the path before moving into a formal application.
             </p>
             <div class="button-row">
-              <a class="button button-primary" href="#contact">Apply Now</a>
-              <a class="button button-light" href="#contact">Talk With an Advisor</a>
+              <a class="button button-primary" href="#start-conversation">Talk Through My Options</a>
+              <a class="button button-light" href="#purchase-options">See Buying Questions</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="trust-intro section-wrap section-prose" aria-labelledby="trust-title">
-        <div class="section-heading section-heading-center">
-          <p class="eyebrow">Advisor-Led From The First Question</p>
-          <h2 id="trust-title">A mortgage process that starts with <em>your situation</em>, not a script.</h2>
+      <section class="situation-router section-wrap" aria-labelledby="router-title">
+        <div class="section-heading">
+          <p class="eyebrow">Start With The Right Question</p>
+          <h2 id="router-title">Start with the mortgage question you are actually trying to answer.</h2>
+          <p>
+            Choose the closest path. ECMA can help you sort out the next step before you decide
+            whether a full application makes sense.
+          </p>
         </div>
-        <div class="prose-columns">
-          <p>
-            Whether you are buying, refinancing, investing, or planning a commercial financing
-            move, ECMA gives you a calm place to sort out your options before you commit to the
-            next step.
-          </p>
-          <p>
-            The goal is simple: help you understand the mortgage path, the documents that may be
-            needed, the timing decisions ahead, and the tradeoffs behind each available lending
-            option.
-          </p>
+
+        <div class="path-grid">
+          <article class="path-card">
+            <span class="path-number">01</span>
+            <h3>Buying a home</h3>
+            <p>
+              Understand affordability, pre-approval, payment comfort, and the questions worth
+              discussing before you apply.
+            </p>
+            <a href="#purchase-options">See buying options</a>
+          </article>
+
+          <article class="path-card" id="refinance">
+            <span class="path-number">02</span>
+            <h3>Reviewing a refinance</h3>
+            <p>
+              Look at payment, equity, timing, cash-out needs, or a second opinion without treating
+              the first step like a rate quote.
+            </p>
+            <a href="#start-conversation">Ask for a review</a>
+          </article>
+
+          <article class="path-card" id="partners">
+            <span class="path-number">03</span>
+            <h3>Helping a buyer</h3>
+            <p>
+              Send a scenario, talk through buyer readiness, or get another set of eyes on a
+              difficult file.
+            </p>
+            <a href="#start-conversation">Send a scenario</a>
+          </article>
         </div>
       </section>
 
-      <section class="feature section-wrap" id="loan-options" aria-labelledby="loan-options-title">
-        <div class="section-heading section-heading-center">
-          <p class="eyebrow">Choose The Right Path</p>
-          <h2 id="loan-options-title">Loan guidance built around the <em>decision</em> you are making.</h2>
-          <p>
-            From home purchase planning to refinance review and commercial loan strategy, ECMA
-            helps borrowers think through the decision before the paperwork takes over.
-          </p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-image">
+      <section class="purchase-options section-wrap" id="purchase-options" aria-labelledby="purchase-title">
+        <div class="split-section">
+          <div class="section-copy">
+            <p class="eyebrow">Buying a home starts with better questions</p>
+            <h2 id="purchase-title">Talk through buying options before you start the full application.</h2>
+            <p>
+              A first conversation can help you understand affordability, pre-approval, payment
+              comfort, timing, and loan-path questions without treating the page like an approval
+              decision.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="#start-conversation">Ask About My Buying Options</a>
+              <a class="button button-secondary" href="#buying-questions">See What We Can Discuss</a>
+            </div>
+          </div>
+
+          <div class="image-panel">
             <img
-              src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1300&q=82"
-              alt="A Pacific Northwest home exterior surrounded by trees"
+              src="./assets/purchase-options-pnw-home.jpg"
+              alt="A Pacific Northwest home with a sloped roof, stone accents, warm windows, and pine trees"
             />
           </div>
-          <div class="feature-content">
-            <div class="option-list">
-              <article>
-                <span>01</span>
-                <div>
-                  <h3>Home Purchase Guidance</h3>
-                  <p>Understand affordability, pre-approval, payment comfort, and offer timing.</p>
-                </div>
-              </article>
-              <article>
-                <span>02</span>
-                <div>
-                  <h3>Refinance Review</h3>
-                  <p>Review rate, payment, equity, cash-out needs, and whether refinancing helps.</p>
-                </div>
-              </article>
-              <article>
-                <span>03</span>
-                <div>
-                  <h3>Commercial Loan Strategy</h3>
-                  <p>Talk through business-purpose financing, property goals, and deal readiness.</p>
-                </div>
-              </article>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section class="stats section-wrap" aria-label="Emerald City Mortgage Advisors service summary">
-        <article>
-          <strong>Licensed in 4 states</strong>
-          <span>Washington, Hawaii, California, and Florida service conversations</span>
-        </article>
-        <article>
-          <strong>Home + Commercial</strong>
-          <span>Guidance for residential and business-purpose loan conversations</span>
-        </article>
-        <article>
-          <strong>Relationship First</strong>
-          <span>A calmer path before the formal application process begins</span>
-        </article>
-      </section>
-
-      <section class="process section-wrap" id="process" aria-labelledby="process-title">
-        <div class="section-heading section-heading-center">
-          <p class="eyebrow">How It Works</p>
-          <h2 id="process-title">How the mortgage process <em>works.</em></h2>
+      <section class="conversation-coverage section-wrap" aria-labelledby="coverage-title">
+        <div class="section-heading">
+          <p class="eyebrow">A Useful First Conversation</p>
+          <h2 id="coverage-title">You do not have to know the answer before you ask.</h2>
           <p>
-            A clear sequence helps you know what is happening, what is needed, and when the next
-            decision point is coming.
+            The first step can be a practical conversation about where you are, what you are
+            considering, and what information would help you decide what to do next.
           </p>
         </div>
-        <div class="process-grid">
+
+        <div class="topic-list">
           <article>
-            <span>1</span>
-            <h3>Discovery Call</h3>
-            <p>Share what you are trying to do, what timeline matters, and what questions are open.</p>
+            <h3>Affordability and payment comfort</h3>
+            <p>
+              Talk through the kind of payment range you are considering and what factors may
+              affect comfort before you shop seriously.
+            </p>
           </article>
           <article>
-            <span>2</span>
-            <h3>Loan Options Review</h3>
-            <p>Compare available paths in plain language so the tradeoffs are easier to understand.</p>
+            <h3>Pre-approval timing</h3>
+            <p>
+              Understand when a formal pre-approval may be useful, what information a lender may
+              request, and what can wait until the right time.
+            </p>
           </article>
           <article>
-            <span>3</span>
-            <h3>Pre-Approval or Scenario Planning</h3>
-            <p>Prepare for a purchase or map out numbers before you make a financing decision.</p>
-          </article>
-          <article>
-            <span>4</span>
-            <h3>Documentation</h3>
-            <p>Gather income, asset, credit, property, and business documents when they are needed.</p>
-          </article>
-          <article>
-            <span>5</span>
-            <h3>Underwriting + Conditions</h3>
-            <p>Work through lender review, requests, and conditions with clear communication.</p>
-          </article>
-          <article>
-            <span>6</span>
-            <h3>Closing + Next Steps</h3>
-            <p>Finish the transaction and understand what to watch for after the loan is complete.</p>
+            <h3>Available loan-path questions</h3>
+            <p>
+              Discuss the tradeoffs that may matter for your situation, such as down payment,
+              property type, income documentation, and timing.
+            </p>
           </article>
         </div>
       </section>
 
-      <section class="seo-guidance section-wrap section-prose" aria-labelledby="guidance-title">
-        <div class="section-heading section-heading-center">
-          <p class="eyebrow">Mortgage Guidance By Situation</p>
-          <h2 id="guidance-title">A deeper mortgage conversation for real borrower scenarios.</h2>
+      <section class="buying-questions section-wrap" id="buying-questions" aria-labelledby="questions-title">
+        <div class="section-heading">
+          <p class="eyebrow">Bring The Question You Have Now</p>
+          <h2 id="questions-title">Good questions for a first buying conversation.</h2>
+          <p>
+            An ECMA advisor can help identify what needs a formal application and what can be discussed first.
+          </p>
         </div>
-        <div class="guidance-rows">
+
+        <div class="question-grid" aria-label="Buying conversation questions">
+          <p>What price range should I be thinking about?</p>
+          <p>How much cash should I expect to need?</p>
+          <p>When should I get pre-approved?</p>
+          <p>Could a different loan path fit better?</p>
+          <p>What should I prepare before I apply?</p>
+          <p>Should I get a second opinion before I write an offer?</p>
+        </div>
+      </section>
+
+      <section class="apply-or-talk section-wrap" aria-labelledby="apply-talk-title">
+        <div class="section-heading">
+          <p class="eyebrow">The Right Next Step</p>
+          <h2 id="apply-talk-title">When to apply and when to talk first.</h2>
+        </div>
+
+        <div class="comparison-grid">
           <article>
-            <h3>For homebuyers comparing mortgage options</h3>
-            <p>
-              Buying a home often starts with a payment question, but the better conversation is
-              about comfort, reserves, property type, timing, and how the loan choice affects the
-              offer strategy. ECMA helps buyers understand pre-approval, monthly payment context,
-              down payment options, closing costs, and the next documents a lender may request.
-            </p>
+            <h3>Talk first when...</h3>
+            <ul>
+              <li>You are early in the process.</li>
+              <li>You want to understand payment comfort.</li>
+              <li>You need to compare possible paths.</li>
+              <li>You are not ready to share full details yet.</li>
+            </ul>
           </article>
           <article>
-            <h3>For homeowners reviewing a refinance</h3>
-            <p>
-              A refinance should not be reduced to a rate quote. Homeowners may need to review
-              payment savings, equity, debt consolidation, cash-out plans, break-even timing, and
-              whether a new loan fits the larger financial picture. ECMA frames refinance as a
-              practical review before a formal application.
-            </p>
-          </article>
-          <article>
-            <h3>For investors, business owners, and complex files</h3>
-            <p>
-              Self-employed borrowers, investors, and commercial borrowers often need a more careful
-              planning conversation. ECMA can help identify the structure of the request, prepare
-              documents, clarify income or property questions, and decide which lending path is
-              worth pursuing next.
-            </p>
+            <h3>Apply when...</h3>
+            <ul>
+              <li>You are actively writing offers.</li>
+              <li>You need a formal pre-approval.</li>
+              <li>You are ready to provide documents.</li>
+              <li>An ECMA advisor confirms the formal path is the right next step.</li>
+            </ul>
           </article>
         </div>
+
+        <p class="compliance-note">
+          This page is for general education and conversation planning. It does not determine
+          approval, eligibility, pricing, loan availability, taxes, insurance, closing costs, or
+          final qualification.
+        </p>
       </section>
 
       <section class="advisor section-wrap" id="advisor" aria-labelledby="advisor-title">
         <div class="advisor-panel">
           <div class="advisor-copy">
-            <p class="eyebrow eyebrow-light">Meet Your Advisor</p>
-            <h2 id="advisor-title">Scott Warneke, <em>Licensed Mortgage Loan Officer</em></h2>
+            <p class="eyebrow eyebrow-light">Owner/Broker + Team</p>
+            <h2 id="advisor-title">Advisor-led guidance from Emerald City Mortgage Advisors.</h2>
             <p>
-              Scott helps borrowers and referral partners slow down the decision, clarify the
-              financing path, and move into the application process only when the next step makes
-              sense.
+              Scott Warneke, Licensed Mortgage Loan Officer, anchors the advisory approach as
+              owner/broker. The website should also give other ECMA loan officers visible space so
+              borrowers and referral partners understand this is a firm experience.
             </p>
-            <ul>
-              <li>Residential and commercial mortgage conversations</li>
-              <li>Support for purchase, refinance, investor, and self-employed borrower scenarios</li>
-              <li>Service-state and NMLS details to be finalized in the compliance pass</li>
+            <ul class="advisor-proof-list">
+              <li>Start with the borrower, homeowner, or partner scenario.</li>
+              <li>Keep the first step conversational before formal application data.</li>
+              <li>Route follow-up around the question, timing, and right advisor fit.</li>
             </ul>
-            <a class="button button-light" href="#contact">Talk With Us</a>
           </div>
-          <div class="advisor-note">
-            <span>ECMA</span>
+          <div class="team-notes" aria-label="Team visibility notes">
+            <article>
+              <span>Owner/Broker</span>
+              <strong>Scott Warneke</strong>
+              <p>Lead advisory presence for the site and complex-scenario positioning.</p>
+            </article>
+            <article>
+              <span>Loan Officers</span>
+              <strong>ECMA Advisors</strong>
+              <p>Visible team space for additional loan officers and relationship continuity.</p>
+            </article>
+            <article>
+              <span>Referral Support</span>
+              <strong>Scenario First</strong>
+              <p>Borrowers and partners can start with the situation before choosing a formal path.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section-wrap" id="process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">The First Conversation Is For Clarity</p>
+          <h2 id="process-title">A clearer path before the formal mortgage process.</h2>
+          <p>
+            The site should show the difference between an early advisory conversation and the
+            formal application path that may come later.
+          </p>
+        </div>
+
+        <div class="process-stack">
+          <div class="process-grid" aria-label="First conversation process">
+            <article>
+              <span>1</span>
+              <h3>Share the situation</h3>
+              <p>Share what you are trying to do, what feels unclear, and how soon you need an answer.</p>
+            </article>
+            <article>
+              <span>2</span>
+              <h3>Review the path</h3>
+              <p>Talk through available loan-path questions and the tradeoffs that may matter.</p>
+            </article>
+            <article>
+              <span>3</span>
+              <h3>Choose the next step</h3>
+              <p>Move toward a formal application, gather documents, or keep planning.</p>
+            </article>
+          </div>
+
+          <div class="formal-path" aria-label="Formal mortgage path if application makes sense">
+            <div>
+              <p class="eyebrow">If Applying Makes Sense</p>
+              <h3>The formal path can come after the right first conversation.</h3>
+              <p>
+                Once ECMA confirms that a formal review is the right next move, the experience can
+                shift from general guidance into documentation, application, underwriting, and closing
+                milestones.
+              </p>
+            </div>
+
+            <ol class="formal-steps">
+              <li>
+                <span>01</span>
+                <strong>Application readiness</strong>
+                <p>Confirm what information is needed and whether a formal application is appropriate.</p>
+              </li>
+              <li>
+                <span>02</span>
+                <strong>Document review</strong>
+                <p>Collect the details needed for review through the approved application workflow.</p>
+              </li>
+              <li>
+                <span>03</span>
+                <strong>Loan path guidance</strong>
+                <p>Discuss realistic next steps without turning the website into an approval promise.</p>
+              </li>
+              <li>
+                <span>04</span>
+                <strong>Milestone follow-up</strong>
+                <p>Keep the borrower, homeowner, or referral partner clear on what happens next.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-planning section-wrap" aria-labelledby="proof-title">
+        <div class="proof-panel">
+          <div>
+            <p class="eyebrow">Trust Signals To Validate</p>
+            <h2 id="proof-title">Proof should be real before it becomes public copy.</h2>
             <p>
-              Local judgment, practical education, and lender-path comparison without making the
-              process feel rushed.
+              The prototype can make room for stronger trust signals, but final proof should come
+              from approved sources instead of invented stats, testimonials, or licensing claims.
             </p>
+          </div>
+
+          <div class="proof-grid">
+            <article>
+              <span>Reviews</span>
+              <strong>Use only approved public reviews or client permission.</strong>
+            </article>
+            <article>
+              <span>Team</span>
+              <strong>Add loan-officer names, titles, and photos after ECMA confirms them.</strong>
+            </article>
+            <article>
+              <span>States</span>
+              <strong>Confirm final Washington, California, Florida, and Idaho wording before launch.</strong>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="faq section-wrap" id="faq" aria-labelledby="faq-title">
-        <div class="section-heading section-heading-center">
-          <p class="eyebrow">Borrower Questions</p>
-          <h2 id="faq-title">Questions people should feel <em>comfortable</em> asking.</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Common First Questions</p>
+          <h2 id="faq-title">You can ask the practical question before you apply.</h2>
+          <p>
+            These answers keep the first step clear without turning the website into a rate quote,
+            approval promise, or formal application.
+          </p>
         </div>
+
         <div class="faq-list">
           <article>
-            <h3>What does a mortgage broker do?</h3>
-            <p>A broker helps you compare mortgage paths and works with lenders to find a practical fit.</p>
+            <h3>Do I need to apply before asking a question?</h3>
+            <p>
+              No. The first conversation can be about timing, payment comfort, documentation, or
+              what to prepare before a full application makes sense.
+            </p>
           </article>
           <article>
-            <h3>How is a broker different from a bank?</h3>
-            <p>A bank offers its own loan options. A broker can help compare options across lending paths.</p>
+            <h3>Can ECMA review a second opinion?</h3>
+            <p>
+              Yes, the site should make room for second-opinion conversations. Final product,
+              pricing, and eligibility language still needs review before publication.
+            </p>
           </article>
           <article>
-            <h3>What should I prepare before applying?</h3>
-            <p>Income, asset, credit, property, and timing details are usually the starting point.</p>
+            <h3>What if I am helping a buyer?</h3>
+            <p>
+              Agent and referral partner scenarios can start with the buyer situation, the deadline,
+              and what feels stuck before anyone is pushed into a formal process.
+            </p>
           </article>
           <article>
-            <h3>Can you help if I am self-employed?</h3>
-            <p>Yes. Self-employed borrowers often benefit from scenario planning before a full application.</p>
-          </article>
-          <article>
-            <h3>Do you handle commercial loans?</h3>
-            <p>ECMA can help talk through commercial financing goals and the documents a lender may need.</p>
-          </article>
-          <article>
-            <h3>What states do you serve?</h3>
-            <p>State licensing language should be finalized before launch. The current service footprint is pending confirmation.</p>
+            <h3>Which states does the site need to mention?</h3>
+            <p>
+              The current design should reference Washington, California, Florida, and Idaho only
+              after approved public state and licensing wording is inserted.
+            </p>
           </article>
         </div>
       </section>
 
-      <section class="final-cta section-wrap" id="contact" aria-labelledby="final-cta-title">
-        <div class="cta-media">
-          <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=82"
-            alt="A welcoming home exterior at dusk"
-          />
-          <div class="cta-panel">
-            <p class="eyebrow eyebrow-light">Start With The Next Step</p>
-            <h2 id="final-cta-title">Not sure where to <em>start?</em></h2>
+      <span id="contact" class="anchor-alias" aria-hidden="true"></span>
+      <section
+        class="start-conversation section-wrap"
+        id="start-conversation"
+        aria-labelledby="conversation-title"
+      >
+        <div class="conversation-layout">
+          <div class="conversation-intro">
+            <p class="eyebrow">Start with the question, not the paperwork</p>
+            <h2 id="conversation-title">Send the mortgage question you are trying to answer.</h2>
             <p>
-              Tell us what you are trying to do, and we will help you understand the next best step.
+              Share enough context for a useful first follow-up. A formal application can come
+              later if it is the right next step.
             </p>
-            <div class="button-row">
-              <a class="button button-light" href="mailto:contact@emeraldcitymortgageadvisors.com">
-                Schedule Consultation
+
+            <div class="method-grid" aria-label="Contact method options">
+              <button class="method-card active" type="button" data-method="inquiry">
+                <span>Short inquiry</span>
+                <strong>Send a question</strong>
+                <small>Share the question and preferred follow-up method.</small>
+              </button>
+              <a class="method-card" href="tel:+12067073788" data-method="call">
+                <span>Call</span>
+                <strong>Call ECMA</strong>
+                <small>Use the public phone number if you would rather start directly.</small>
               </a>
-              <a class="button button-primary-alt" href="tel:+12067073788">Apply Now</a>
+              <a class="method-card" href="mailto:contact@emeraldcitymortgageadvisors.com" data-method="email">
+                <span>Email</span>
+                <strong>Email ECMA</strong>
+                <small>Use email while booking and CRM routing are pending approval.</small>
+              </a>
             </div>
           </div>
+
+          <form class="conversation-form" id="conversation-form" novalidate>
+            <div class="form-heading">
+              <h3>What should ECMA know before following up?</h3>
+              <p>
+                Keep it simple. Do not include Social Security numbers, document uploads, or
+                sensitive financial details in this first message.
+              </p>
+            </div>
+
+            <div class="form-error-summary" id="form-errors" tabindex="-1" hidden></div>
+            <div class="form-status" id="form-status" role="status" hidden></div>
+
+            <label class="field">
+              <span>Name</span>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" />
+              <small data-error-for="name"></small>
+            </label>
+
+            <div class="field-pair">
+              <label class="field">
+                <span>Email</span>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
+                <small data-error-for="email"></small>
+              </label>
+              <label class="field">
+                <span>Phone</span>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(206) 555-0100" />
+                <small data-error-for="phone"></small>
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Where are you in the buying process?</span>
+              <select id="situation" name="situation">
+                <option value="">Choose one, if helpful</option>
+                <option>Thinking about buying</option>
+                <option>Touring homes</option>
+                <option>Writing offers soon</option>
+                <option>Need a second opinion</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>What question are you trying to answer?</span>
+              <textarea
+                id="question"
+                name="question"
+                rows="5"
+                placeholder="Example: I am trying to understand what price range may be realistic before I talk to an agent."
+              ></textarea>
+              <small data-error-for="question"></small>
+            </label>
+
+            <fieldset class="radio-group">
+              <legend>How should ECMA follow up?</legend>
+              <label><input type="radio" name="followUp" value="Email" /> Email</label>
+              <label><input type="radio" name="followUp" value="Phone" /> Phone</label>
+              <label><input type="radio" name="followUp" value="Either is fine" /> Either is fine</label>
+              <small data-error-for="followUp"></small>
+            </fieldset>
+
+            <label class="acknowledgment">
+              <input id="acknowledgment" name="acknowledgment" type="checkbox" />
+              <span>
+                I understand this is a conversation request, not a formal loan application or
+                approval decision.
+              </span>
+            </label>
+            <small class="field-error" data-error-for="acknowledgment"></small>
+
+            <p class="compliance-note compact">
+              This inquiry does not determine approval, eligibility, pricing, loan availability,
+              taxes, insurance, closing costs, or final qualification.
+            </p>
+
+            <button class="button button-primary form-submit" type="submit">Send My Question</button>
+          </form>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="footer-brand">
+      <div>
         <img src="./assets/ecma-logo-emerald.png" alt="Emerald City Mortgage Advisors" />
         <p>
           Emerald City Mortgage Advisors provides advisor-led mortgage conversations for home,
@@ -328,26 +533,24 @@
         </ul>
       </div>
       <div>
-        <h2>Services</h2>
+        <h2>States</h2>
         <ul>
-          <li><a href="#loan-options">Home Purchase Guidance</a></li>
-          <li><a href="#loan-options">Refinance Review</a></li>
-          <li><a href="#loan-options">Commercial Loan Strategy</a></li>
-          <li><a href="#process">Mortgage Process</a></li>
+          <li><a href="./california-mortgage-advisor/">California</a></li>
+          <li><a href="./florida-mortgage-advisor/">Florida</a></li>
+          <li><a href="./idaho-mortgage-advisor/">Idaho</a></li>
         </ul>
       </div>
       <div>
-        <h2>States + Legal</h2>
+        <h2>Prototype Scope</h2>
         <ul>
-          <li>Washington, Hawaii, California, and Florida</li>
-          <li>NMLS information to be inserted after compliance review</li>
-          <li><a href="#top">Privacy Policy</a></li>
-          <li><a href="#top">Terms</a></li>
+          <li>Homepage buyer routing</li>
+          <li>Purchase-options guidance</li>
+          <li>Conversation-first inquiry flow</li>
         </ul>
       </div>
       <p class="footer-disclaimer">
-        Draft website copy for review. Final licensing, NMLS, lender, product, and state-service
-        disclosures must be verified before public launch.
+        Draft website prototype for review. Final licensing, NMLS, lender, product, CRM, form,
+        state-service, and disclosure language must be verified before public launch.
       </p>
     </footer>
 
