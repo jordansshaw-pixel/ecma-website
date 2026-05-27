@@ -427,6 +427,47 @@ textarea {
   padding: clamp(58px, 8vw, 92px) 0;
 }
 
+.apply-intro {
+  padding: 92px 0 48px;
+}
+
+.apply-intro .section-heading {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.apply-intro h1 {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--green-950);
+}
+
+.apply-form-section {
+  width: 100%;
+  padding: 52px clamp(18px, 5vw, 72px) 72px;
+  background: var(--white);
+}
+
+.apply-form-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+#floify-app {
+  width: 100%;
+  background: var(--white);
+}
+
+.application-disclaimer {
+  max-width: 900px;
+  margin: 18px auto 0;
+  color: var(--stone-600);
+  font-size: 14px;
+  text-align: center;
+}
+
 .section-heading {
   max-width: 790px;
   margin-bottom: 32px;

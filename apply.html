@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Start a mortgage application with Scott Warneke and Emerald City Mortgage Advisors through Floify."
+    />
+    <title>Apply | Emerald City Mortgage Advisors</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-top" id="top">
+      <div class="trust-bar">
+        <p>Guided mortgage advice before you decide whether to apply.</p>
+        <a href="index.html#start-conversation">Talk through your options</a>
+      </div>
+
+      <div class="site-header">
+        <a class="brand" href="index.html#top" aria-label="Emerald City Mortgage Advisors home">
+          <img src="./assets/ecma-logo-gold-header-clean.webp" alt="Emerald City Mortgage Advisors" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+          Menu
+        </button>
+
+        <nav class="nav-links" id="primary-nav" aria-label="Primary navigation">
+          <a href="index.html#purchase-options">Buying Options</a>
+          <a href="index.html#refinance">Refinance Review</a>
+          <a href="index.html#partners">Agent Partners</a>
+          <a href="index.html#process">Process</a>
+          <a href="index.html#advisor">Team</a>
+          <a href="index.html#start-conversation">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="button button-secondary button-small" href="index.html#start-conversation">Start a Conversation</a>
+          <a class="button button-primary button-small" href="apply.html">Apply When Ready</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="apply-intro section-wrap" aria-labelledby="apply-title">
+        <div class="section-heading">
+          <p class="eyebrow">Apply When Ready</p>
+          <h1 id="apply-title">Ready to apply? Let's make it official.</h1>
+          <p>
+            The application typically takes 10–15 minutes. Have your income information,
+            employment history, and Social Security number handy. Scott's team will review
+            your file and follow up with next steps.
+          </p>
+        </div>
+      </section>
+
+      <section class="apply-form-section" aria-label="Mortgage application form">
+        <div class="apply-form-shell">
+          <iframe 
+  id="floify-app"
+  src="https://scottwarneke1.floify.com/apply?noheaderfooter"
+  width="100%"
+  height="900px"
+  frameborder="0"
+  scrolling="no"
+  style="border:none; display:block;">
+</iframe>
+
+          <p class="application-disclaimer">
+            This application is powered by Floify and processed by NEXA Mortgage, LLC NMLS #1660690.
+            Submitting an application does not constitute a commitment to lend.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img class="footer-logo" src="./assets/ecma-logo-gold-padded.webp" alt="Emerald City Mortgage Advisors" />
+        <p>
+          Emerald City Mortgage Advisors provides advisor-led mortgage guidance for home purchase,
+          refinance, investment, and commercial lending needs.
+        </p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="tel:+12067073788">(206) 707-3788</a></li>
+          <li><a href="mailto:contact@emeraldcitymortgageadvisors.com">contact@emeraldcitymortgageadvisors.com</a></li>
+          <li>914 164th St SE #381, Mill Creek, WA 98012</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Start</h2>
+        <ul>
+          <li><a href="index.html#start-conversation">Start a conversation</a></li>
+          <li><a href="apply.html">Apply through Floify</a></li>
+          <li><a href="https://www.experience.com/reviews/scott-12617932">Read reviews</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Licensing</h2>
+        <ul>
+          <li>Scott Warneke, Licensed Mortgage Loan Officer</li>
+          <li>NMLS# 278008</li>
+          <li>NEXA Mortgage, LLC NMLS #1660690</li>
+          <li>AZMB #0944059</li>
+          <li>Equal Housing Lender</li>
+        </ul>
+      </div>
+      <div class="footer-compliance" aria-label="Required lending disclosures">
+        <img src="./assets/equal-housing-lender.svg" alt="Equal Housing Lender" />
+        <p>
+          Equal Housing Lender. This website is not a commitment to lend or extend credit.
+          All loans are subject to credit approval, property approval, program guidelines,
+          and underwriting review.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
