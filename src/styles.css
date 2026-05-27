@@ -180,8 +180,12 @@ textarea {
 }
 
 .brand img {
-  width: min(170px, 100%);
+  width: min(156px, 100%);
   height: auto;
+  display: block;
+  padding: 4px;
+  border-radius: 6px;
+  background: #020403;
 }
 
 .nav-links {
@@ -1008,10 +1012,11 @@ button.method-card {
 }
 
 .site-footer img {
-  width: 240px;
+  width: 230px;
   margin-bottom: 18px;
-  border-radius: var(--radius-card);
-  background: var(--warm-50);
+  padding: 8px;
+  border-radius: 6px;
+  background: #020403;
 }
 
 .site-footer h2 {
@@ -1183,7 +1188,7 @@ button.method-card {
   }
 
   .brand img {
-    width: 142px;
+    width: 132px;
   }
 
   .hero {
@@ -1269,7 +1274,7 @@ button.method-card {
 
 @media (max-width: 420px) {
   .brand img {
-    width: 128px;
+    width: 120px;
   }
 
   .menu-toggle {
