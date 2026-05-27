@@ -1458,9 +1458,9 @@ button.method-card {
 
 .site-footer {
   display: grid;
-  grid-template-columns: minmax(260px, 1.15fr) repeat(4, minmax(130px, 0.65fr));
-  gap: clamp(24px, 4vw, 48px);
-  padding: 48px max(18px, calc((100vw - 1160px) / 2)) 36px;
+  grid-template-columns: minmax(260px, 1fr) minmax(240px, 0.9fr) repeat(3, minmax(140px, 0.6fr));
+  gap: clamp(22px, 3vw, 40px);
+  padding: 48px max(18px, calc((100vw - 1280px) / 2)) 36px;
   color: rgba(255, 255, 255, 0.82);
   background:
     linear-gradient(180deg, #101a17, #0d1714 68%, #151206);
@@ -1486,6 +1486,7 @@ button.method-card {
   color: rgba(255, 255, 255, 0.68);
   font-size: 14px;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
 .site-footer ul {
