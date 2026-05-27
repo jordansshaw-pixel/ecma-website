@@ -166,9 +166,9 @@ textarea {
 }
 
 .site-header {
-  min-height: 64px;
+  min-height: 82px;
   display: grid;
-  grid-template-columns: minmax(120px, 156px) 1fr auto;
+  grid-template-columns: minmax(150px, 190px) 1fr auto;
   gap: 16px;
   align-items: center;
   padding: 8px clamp(18px, 4vw, 54px);
@@ -180,12 +180,9 @@ textarea {
 }
 
 .brand img {
-  width: min(156px, 100%);
+  width: min(184px, 100%);
   height: auto;
   display: block;
-  padding: 4px;
-  border-radius: 6px;
-  background: #020403;
 }
 
 .nav-links {
@@ -1011,12 +1008,11 @@ button.method-card {
     linear-gradient(180deg, #101a17, #0d1714 68%, #151206);
 }
 
-.site-footer img {
-  width: 230px;
+.site-footer .footer-logo {
+  width: 260px;
   margin-bottom: 18px;
-  padding: 8px;
-  border-radius: 6px;
-  background: #020403;
+  border-radius: 0;
+  background: transparent;
 }
 
 .site-footer h2 {
@@ -1073,7 +1069,7 @@ button.method-card {
 
 @media (max-width: 1120px) {
   .site-header {
-    grid-template-columns: minmax(120px, 156px) auto;
+    grid-template-columns: minmax(138px, 170px) auto;
   }
 
   .header-actions,
@@ -1183,12 +1179,12 @@ button.method-card {
   }
 
   .site-header {
-    min-height: 58px;
+    min-height: 72px;
     padding: 7px 14px;
   }
 
   .brand img {
-    width: 132px;
+    width: 154px;
   }
 
   .hero {
@@ -1274,7 +1270,7 @@ button.method-card {
 
 @media (max-width: 420px) {
   .brand img {
-    width: 120px;
+    width: 140px;
   }
 
   .menu-toggle {
