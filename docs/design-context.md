@@ -72,7 +72,13 @@ Working model:
 - GHL manages follow-up, reminders, nurture, and lead status.
 - Floify becomes the formal application path after Scott confirms the visitor is ready.
 
-This workflow needs Scott's approval before implementation.
+Current technical status:
+
+- ECMA GHL read access is available locally through `.env.local`.
+- The current site is a static GitHub Pages/Vite build, so it must not call GHL directly with a private integration token from browser JavaScript.
+- A production GHL form submission needs either an approved GHL-hosted form/calendar link or a server-side endpoint that stores the private token outside the browser.
+
+This workflow needs Scott's approval before production implementation.
 
 ## Product Access Language
 

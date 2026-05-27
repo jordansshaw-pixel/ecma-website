@@ -29,5 +29,10 @@ Useful source pointers are collected in:
 
 ## Current Status
 
-Repo setup only. No website build has started in this repository.
+The buyer-path preview is implemented and deployed through GitHub Pages.
 
+- Active preview: `https://jordansshaw-pixel.github.io/ecma-website/`
+- Current contact behavior: validated mailto fallback
+- ECMA GHL access: configured locally through `.env.local`
+
+Private GHL tokens must stay server-side. Do not expose `ECMA_GHL_PRIVATE_INTEGRATION_TOKEN` through Vite client code, static JavaScript, GitHub Pages, or tracked documentation.
