@@ -24,6 +24,7 @@ Pages
 
 Home: https://jordansshaw-pixel.github.io/ecma-website/
 Tools: https://jordansshaw-pixel.github.io/ecma-website/tools.html
+Calculator: https://jordansshaw-pixel.github.io/ecma-website/calculator.html
 Agent Partners: https://jordansshaw-pixel.github.io/ecma-website/partners.html
 Florida: https://jordansshaw-pixel.github.io/ecma-website/florida.html
 California: https://jordansshaw-pixel.github.io/ecma-website/california.html
