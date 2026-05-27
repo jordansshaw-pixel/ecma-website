@@ -166,9 +166,9 @@ textarea {
 }
 
 .site-header {
-  min-height: 82px;
+  min-height: 112px;
   display: grid;
-  grid-template-columns: minmax(150px, 190px) 1fr auto;
+  grid-template-columns: minmax(190px, 250px) 1fr auto;
   gap: 16px;
   align-items: center;
   padding: 8px clamp(18px, 4vw, 54px);
@@ -180,7 +180,7 @@ textarea {
 }
 
 .brand img {
-  width: min(184px, 100%);
+  width: min(244px, 100%);
   height: auto;
   display: block;
 }
@@ -1069,7 +1069,7 @@ button.method-card {
 
 @media (max-width: 1120px) {
   .site-header {
-    grid-template-columns: minmax(138px, 170px) auto;
+    grid-template-columns: minmax(160px, 210px) auto;
   }
 
   .header-actions,
@@ -1179,12 +1179,12 @@ button.method-card {
   }
 
   .site-header {
-    min-height: 72px;
+    min-height: 96px;
     padding: 7px 14px;
   }
 
   .brand img {
-    width: 154px;
+    width: 196px;
   }
 
   .hero {
@@ -1270,7 +1270,7 @@ button.method-card {
 
 @media (max-width: 420px) {
   .brand img {
-    width: 140px;
+    width: 172px;
   }
 
   .menu-toggle {
