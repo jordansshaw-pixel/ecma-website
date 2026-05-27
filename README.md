@@ -32,7 +32,7 @@ Useful source pointers are collected in:
 The buyer-path preview is implemented and deployed through GitHub Pages.
 
 - Active preview: `https://jordansshaw-pixel.github.io/ecma-website/`
-- Current contact behavior: validated mailto fallback
+- Current contact behavior: embedded GHL form with phone/email fallback
 - ECMA GHL access: configured locally through `.env.local`
 
 Private GHL tokens must stay server-side. Do not expose `ECMA_GHL_PRIVATE_INTEGRATION_TOKEN` through Vite client code, static JavaScript, GitHub Pages, or tracked documentation.

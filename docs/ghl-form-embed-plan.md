@@ -13,7 +13,13 @@ Available pipeline:
 - New lead stage: `New Lead`
 - New lead stage ID: `53e1dfb3-6ef9-4ba5-a3d0-35055a98e7ca`
 
-Existing GHL form:
+Embedded GHL form:
+
+- Form ID: `ZdS1N70ex9I9fbCy71ch`
+- Widget URL: `https://api.leadconnectorhq.com/widget/form/ZdS1N70ex9I9fbCy71ch`
+- Status: Embedded in the Start Conversation section.
+
+Previous unsuitable GHL form:
 
 - Name: `Book Meeting with Us`
 - Form ID: `fJm4RXRmZF14yx4wkCoc`
@@ -25,9 +31,9 @@ Existing GHL survey:
 - Survey ID: `x43v6KE2CpnGvN4FwQg2`
 - Status: Do not embed for ECMA. The live widget is an A2P/business onboarding survey.
 
-## Required ECMA Form
+## ECMA Form Requirements
 
-Create a new GHL form named:
+The embedded GHL form should be named:
 
 `ECMA - Start Conversation`
 

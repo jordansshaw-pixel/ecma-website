@@ -878,6 +878,15 @@ button.method-card {
   padding: clamp(20px, 4vw, 34px);
 }
 
+.ghl-form-frame {
+  display: block;
+  width: 100%;
+  min-height: 855px;
+  border: 0;
+  border-radius: calc(var(--radius-card) - 4px);
+  background: #fffdf8;
+}
+
 .form-heading h3 {
   margin-bottom: 6px;
   font-family: "Lora", Georgia, serif;

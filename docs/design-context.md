@@ -75,8 +75,9 @@ Working model:
 Current technical status:
 
 - ECMA GHL read access is available locally through `.env.local`.
-- The current site is a static GitHub Pages/Vite build, so it must not call GHL directly with a private integration token from browser JavaScript.
-- A production GHL form submission needs either an approved GHL-hosted form/calendar link or a server-side endpoint that stores the private token outside the browser.
+- ECMA's GHL form is embedded in the Start Conversation section.
+- The current site is a static GitHub Pages/Vite build, so custom API calls must not use the private integration token from browser JavaScript.
+- A future custom submission flow would need either an approved GHL-hosted form/calendar link or a server-side endpoint that stores the private token outside the browser.
 
 This workflow needs Scott's approval before production implementation.
 

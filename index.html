@@ -429,89 +429,43 @@
               <a class="method-card" href="mailto:contact@emeraldcitymortgageadvisors.com" data-method="email">
                 <span>Email</span>
                 <strong>Email ECMA</strong>
-                <small>Use email while booking and CRM routing are pending approval.</small>
+                <small>Use email if you would rather write directly.</small>
               </a>
             </div>
           </div>
 
-          <form class="conversation-form" id="conversation-form" novalidate>
+          <div class="conversation-form" id="conversation-form">
             <div class="form-heading">
-              <h3>What should ECMA know before following up?</h3>
+              <h3>Start the conversation with Scott.</h3>
               <p>
-                Keep it simple. Do not include Social Security numbers, document uploads, or
-                sensitive financial details in this first message.
+                Share a little context and Scott's team will follow up about the best next step.
+                Do not include Social Security numbers, document uploads, or sensitive financial details.
               </p>
             </div>
 
-            <div class="form-error-summary" id="form-errors" tabindex="-1" hidden></div>
-            <div class="form-status" id="form-status" role="status" hidden></div>
-
-            <label class="field">
-              <span>Name</span>
-              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" />
-              <small data-error-for="name"></small>
-            </label>
-
-            <div class="field-pair">
-              <label class="field">
-                <span>Email</span>
-                <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
-                <small data-error-for="email"></small>
-              </label>
-              <label class="field">
-                <span>Phone</span>
-                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(206) 555-0100" />
-                <small data-error-for="phone"></small>
-              </label>
-            </div>
-
-            <label class="field">
-              <span>Where are you in the buying process?</span>
-              <select id="situation" name="situation">
-                <option value="">Choose one, if helpful</option>
-                <option>Thinking about buying</option>
-                <option>Touring homes</option>
-                <option>Writing offers soon</option>
-                <option>Need a second opinion</option>
-                <option>Not sure yet</option>
-              </select>
-            </label>
-
-            <label class="field">
-              <span>What question are you trying to answer?</span>
-              <textarea
-                id="question"
-                name="question"
-                rows="5"
-                placeholder="Example: I am trying to understand what price range may be realistic before I talk to an agent."
-              ></textarea>
-              <small data-error-for="question"></small>
-            </label>
-
-            <fieldset class="radio-group">
-              <legend>How should ECMA follow up?</legend>
-              <label><input type="radio" name="followUp" value="Email" /> Email</label>
-              <label><input type="radio" name="followUp" value="Phone" /> Phone</label>
-              <label><input type="radio" name="followUp" value="Either is fine" /> Either is fine</label>
-              <small data-error-for="followUp"></small>
-            </fieldset>
-
-            <label class="acknowledgment">
-              <input id="acknowledgment" name="acknowledgment" type="checkbox" />
-              <span>
-                I understand this is a conversation request, not a formal loan application or
-                approval decision.
-              </span>
-            </label>
-            <small class="field-error" data-error-for="acknowledgment"></small>
+            <iframe
+              src="https://api.leadconnectorhq.com/widget/form/ZdS1N70ex9I9fbCy71ch"
+              class="ghl-form-frame"
+              id="inline-ZdS1N70ex9I9fbCy71ch"
+              data-layout='{"id":"INLINE"}'
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="ECMA Start Conversation"
+              data-height="855"
+              data-layout-iframe-id="inline-ZdS1N70ex9I9fbCy71ch"
+              data-form-id="ZdS1N70ex9I9fbCy71ch"
+              title="ECMA Start Conversation"
+            ></iframe>
 
             <p class="compliance-note compact">
               This inquiry does not determine approval, eligibility, pricing, loan availability,
               taxes, insurance, closing costs, or final qualification.
             </p>
-
-            <button class="button button-primary form-submit" type="submit">Send My Question</button>
-          </form>
+          </div>
         </div>
       </section>
     </main>
@@ -554,6 +508,7 @@
       </p>
     </footer>
 
+    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
