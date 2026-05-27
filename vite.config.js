@@ -11,6 +11,10 @@ export default defineConfig({
       input: {
         main: resolve(root, "index.html"),
         apply: resolve(root, "apply.html"),
+        california: resolve(root, "california.html"),
+        florida: resolve(root, "florida.html"),
+        idaho: resolve(root, "idaho.html"),
+        partners: resolve(root, "partners.html"),
         tools: resolve(root, "tools.html"),
       },
     },
