@@ -1348,7 +1348,9 @@ button.method-card {
 }
 
 .conversation-form .compliance-note {
+  width: min(100%, 540px);
   margin: 0;
+  justify-self: center;
   border-color: rgba(31, 106, 82, 0.14);
   background:
     linear-gradient(135deg, rgba(237, 247, 238, 0.88), rgba(255, 247, 223, 0.7)),
