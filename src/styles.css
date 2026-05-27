@@ -916,17 +916,25 @@ button.method-card {
 
 .conversation-form {
   display: grid;
-  gap: 18px;
+  gap: 20px;
   padding: clamp(20px, 4vw, 34px);
+  background:
+    linear-gradient(145deg, rgba(255, 248, 232, 0.96), rgba(244, 238, 227, 0.98)),
+    var(--warm-50);
 }
 
 .ghl-form-frame {
   display: block;
   width: 100%;
   min-height: 855px;
-  border: 0;
+  border: 1px solid rgba(31, 106, 82, 0.12);
   border-radius: calc(var(--radius-card) - 4px);
-  background: #fffdf8;
+  background:
+    linear-gradient(180deg, rgba(251, 248, 242, 0.94), rgba(255, 255, 255, 0.98)),
+    var(--white);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.74),
+    0 16px 32px rgba(16, 42, 36, 0.08);
 }
 
 .form-heading h3 {
@@ -939,6 +947,15 @@ button.method-card {
 .form-heading p {
   margin-bottom: 0;
   font-size: 15px;
+}
+
+.conversation-form .compliance-note {
+  margin: 0;
+  border-color: rgba(31, 106, 82, 0.14);
+  background:
+    linear-gradient(135deg, rgba(237, 247, 238, 0.88), rgba(255, 247, 223, 0.7)),
+    var(--warm-50);
+  color: var(--stone-600);
 }
 
 .field,
