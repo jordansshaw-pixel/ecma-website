@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+Sitemap: https://jordansshaw-pixel.github.io/ecma-website/sitemap.xml
