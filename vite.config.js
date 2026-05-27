@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(root, "index.html"),
         apply: resolve(root, "apply.html"),
+        tools: resolve(root, "tools.html"),
       },
     },
   },

@@ -468,6 +468,96 @@ textarea {
   text-align: center;
 }
 
+.tools-section {
+  padding: clamp(18px, 3vw, 36px) 0 clamp(58px, 8vw, 92px);
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.tool-card {
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border: 1px solid rgba(181, 138, 58, 0.22);
+  border-radius: var(--radius-card);
+  background:
+    linear-gradient(145deg, rgba(232, 205, 109, 0.58), rgba(255, 247, 223, 0.6) 43%),
+    linear-gradient(180deg, rgba(255, 250, 235, 0.94), rgba(238, 222, 169, 0.9));
+  box-shadow:
+    0 14px 34px rgba(92, 82, 44, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+.tool-card-featured {
+  color: var(--white);
+  background:
+    linear-gradient(145deg, rgba(234, 215, 170, 0.16), transparent 42%),
+    linear-gradient(135deg, var(--green-950), var(--green-800));
+}
+
+.tool-card-featured h3,
+.tool-card-featured p {
+  color: var(--white);
+}
+
+.tool-card p {
+  margin-bottom: 14px;
+}
+
+.tool-card .button {
+  width: 100%;
+  margin-top: auto;
+}
+
+.tool-tag {
+  width: max-content;
+  max-width: 100%;
+  border: 1px solid rgba(208, 173, 69, 0.38);
+  border-radius: var(--radius-pill);
+  padding: 5px 10px;
+  color: var(--green-950);
+  background: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+  font-weight: 820;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tool-card-featured .tool-tag {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.tools-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: clamp(58px, 8vw, 92px);
+  padding: clamp(28px, 5vw, 50px);
+  border-radius: var(--radius-card);
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(234, 215, 170, 0.17), transparent 48%),
+    linear-gradient(135deg, var(--green-950), var(--green-800));
+  box-shadow: var(--shadow-soft);
+}
+
+.tools-cta h2,
+.tools-cta p {
+  color: var(--white);
+}
+
+.tools-cta .eyebrow {
+  color: var(--gold-300);
+}
+
 .section-heading {
   max-width: 790px;
   margin-bottom: 32px;
@@ -1195,7 +1285,8 @@ button.method-card {
   .path-grid,
   .topic-list,
   .question-grid,
-  .process-grid {
+  .process-grid,
+  .tools-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1203,7 +1294,8 @@ button.method-card {
   .advisor-panel,
   .formal-path,
   .proof-panel,
-  .conversation-layout {
+  .conversation-layout,
+  .tools-cta {
     grid-template-columns: 1fr;
   }
 
@@ -1293,6 +1385,7 @@ button.method-card {
   .question-grid,
   .comparison-grid,
   .process-grid,
+  .tools-grid,
   .field-pair,
   .site-footer {
     grid-template-columns: 1fr;
