@@ -4,6 +4,7 @@ const navLinks = document.querySelectorAll(".nav-links a, .header-actions a");
 const methodCards = document.querySelectorAll("[data-method]");
 const inquiryTarget = document.querySelector("#conversation-form");
 const anchorLinks = document.querySelectorAll('a[href*="#"]');
+const pendingLinks = document.querySelectorAll("[data-pending-link]");
 
 function closeMenu() {
   siteTop?.classList.remove("nav-open");
@@ -76,6 +77,12 @@ anchorLinks.forEach((link) => {
 
     event.preventDefault();
     scrollToHash(url.hash);
+  });
+});
+
+pendingLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
   });
 });
 

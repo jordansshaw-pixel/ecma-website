@@ -1307,6 +1307,44 @@ button.method-card {
   line-height: 1.45;
 }
 
+.social-card {
+  gap: 12px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-link {
+  min-width: 96px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid rgba(31, 106, 82, 0.18);
+  border-radius: var(--radius-field);
+  color: var(--green-950);
+  background: rgba(255, 255, 255, 0.42);
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  border-color: rgba(31, 106, 82, 0.42);
+  background: rgba(237, 247, 238, 0.78);
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  flex: 0 0 auto;
+}
+
 .conversation-form {
   display: grid;
   gap: 14px;
