@@ -180,7 +180,7 @@ textarea {
 }
 
 .brand img {
-  width: min(142px, 100%);
+  width: min(170px, 100%);
   height: auto;
 }
 
@@ -1008,7 +1008,7 @@ button.method-card {
 }
 
 .site-footer img {
-  width: 210px;
+  width: 240px;
   margin-bottom: 18px;
   border-radius: var(--radius-card);
   background: var(--warm-50);
@@ -1183,7 +1183,7 @@ button.method-card {
   }
 
   .brand img {
-    width: 122px;
+    width: 142px;
   }
 
   .hero {
@@ -1269,7 +1269,7 @@ button.method-card {
 
 @media (max-width: 420px) {
   .brand img {
-    width: 112px;
+    width: 128px;
   }
 
   .menu-toggle {
