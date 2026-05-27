@@ -105,18 +105,7 @@
               it as a conversation starting point — bring the number to ECMA and we can walk
               through what it means for your specific situation.
             </p>
-            <a
-              class="button button-secondary"
-              href="calculator.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open Mortgage Calculator
-            </a>
-            <small>
-              This calculator is provided by the Consumer Financial Protection Bureau. Results are
-              estimates only.
-            </small>
+            <a class="button button-secondary" href="#mortgage-calculator">Open Mortgage Calculator</a>
           </article>
 
           <article class="tool-card">
@@ -147,6 +136,125 @@
           </p>
         </div>
         <a class="button button-primary" href="index.html#start-conversation">Start a Conversation</a>
+      </section>
+
+      <section
+        class="mortgage-calculator section-wrap"
+        id="mortgage-calculator"
+        aria-labelledby="mortgage-calculator-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">Mortgage Calculator</p>
+          <h2 id="mortgage-calculator-title">Run a payment estimate, then talk through the number.</h2>
+          <p>
+            Enter a few assumptions to estimate principal and interest. Add a monthly taxes and
+            insurance estimate if you want a rough all-in planning number.
+          </p>
+        </div>
+
+        <div class="calculator-panel">
+          <div class="calculator-card">
+            <h3>Your Numbers</h3>
+
+            <div class="calc-field">
+              <label for="calcHomePrice">Home Price</label>
+              <div class="calc-input-wrap has-prefix">
+                <span>$</span>
+                <input type="number" id="calcHomePrice" value="450000" min="50000" max="5000000" step="5000" />
+              </div>
+            </div>
+
+            <div class="calc-field">
+              <label for="calcDownPayment">Down Payment</label>
+              <div class="calc-input-wrap has-prefix">
+                <span>$</span>
+                <input type="number" id="calcDownPayment" value="90000" min="0" step="1000" />
+              </div>
+              <div class="calc-slider-row">
+                <input type="range" id="calcDownPct" min="3" max="50" value="20" step="0.5" />
+                <strong id="calcDownPctLabel">20%</strong>
+              </div>
+            </div>
+
+            <div class="calc-field">
+              <label for="calcRate">Interest Rate</label>
+              <div class="calc-slider-row">
+                <input type="range" id="calcRate" min="3" max="12" value="6.75" step="0.125" />
+                <strong id="calcRateLabel">6.750%</strong>
+              </div>
+            </div>
+
+            <div class="calc-field">
+              <span class="calc-label">Loan Term</span>
+              <div class="calc-term-group" id="calcTermGroup">
+                <button class="calc-term-button" type="button" data-term="10">10 yr</button>
+                <button class="calc-term-button" type="button" data-term="15">15 yr</button>
+                <button class="calc-term-button" type="button" data-term="20">20 yr</button>
+                <button class="calc-term-button active" type="button" data-term="30">30 yr</button>
+              </div>
+            </div>
+
+            <div class="calc-field">
+              <label for="calcTaxes">Monthly Taxes &amp; Insurance</label>
+              <div class="calc-input-wrap has-prefix">
+                <span>$</span>
+                <input type="number" id="calcTaxes" value="0" min="0" step="50" placeholder="0" />
+              </div>
+            </div>
+          </div>
+
+          <div class="calculator-results">
+            <h3>Estimated Payment</h3>
+
+            <div class="monthly-payment">
+              <span>Est. Monthly Payment</span>
+              <strong id="calcPiResult">-</strong>
+              <p id="calcTotalResult">Principal &amp; Interest only</p>
+            </div>
+
+            <div class="calc-stat-row">
+              <span>Home Price</span>
+              <strong id="calcSummaryPrice">-</strong>
+            </div>
+            <div class="calc-stat-row">
+              <span>Down Payment</span>
+              <strong id="calcSummaryDown">-</strong>
+            </div>
+            <div class="calc-stat-row">
+              <span>Loan Amount</span>
+              <strong id="calcSummaryLoan">-</strong>
+            </div>
+            <div class="calc-stat-row">
+              <span>Rate / Term</span>
+              <strong id="calcSummaryRate">-</strong>
+            </div>
+            <div class="calc-stat-row">
+              <span>Total Interest Paid</span>
+              <strong id="calcSummaryInterest">-</strong>
+            </div>
+            <div class="calc-stat-row">
+              <span>Total Cost of Loan</span>
+              <strong id="calcSummaryTotal">-</strong>
+            </div>
+
+            <div class="calc-breakdown-bar" aria-hidden="true">
+              <div class="bar-principal" id="calcBarPrincipal"></div>
+              <div class="bar-interest" id="calcBarInterest"></div>
+            </div>
+            <div class="calc-legend">
+              <span><i class="legend-principal"></i>Principal</span>
+              <span><i class="legend-interest"></i>Interest</span>
+            </div>
+
+            <div class="calculator-note">
+              <p>
+                These numbers are estimates only. They are not a rate quote, loan approval, or
+                commitment to lend.
+              </p>
+              <a class="button button-primary" href="index.html#start-conversation">Talk Through These Numbers</a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
