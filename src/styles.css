@@ -1332,6 +1332,7 @@ button.method-card {
   padding: 0 0 2px;
   border: 0;
   background: transparent;
+  text-align: center;
 }
 
 .form-heading h3 {
