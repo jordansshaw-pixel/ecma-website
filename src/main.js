@@ -3,6 +3,7 @@ const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelectorAll(".nav-links a, .header-actions a");
 const methodCards = document.querySelectorAll("[data-method]");
 const inquiryTarget = document.querySelector("#conversation-form");
+const anchorLinks = document.querySelectorAll('a[href*="#"]');
 
 function closeMenu() {
   siteTop?.classList.remove("nav-open");
@@ -20,6 +21,72 @@ navLinks.forEach((link) => {
   link.addEventListener("click", closeMenu);
 });
 
+function normalizedPath(pathname) {
+  const cleanPath = pathname.replace(/\/$/, "/index.html");
+  return cleanPath.endsWith("/index.html") ? cleanPath : cleanPath;
+}
+
+function isSamePageUrl(url) {
+  const currentPath = normalizedPath(window.location.pathname);
+  const targetPath = normalizedPath(url.pathname);
+
+  if (url.origin !== window.location.origin) return false;
+  if (currentPath === targetPath) return true;
+  return currentPath.endsWith("/index.html") && targetPath.endsWith("/index.html");
+}
+
+function scrollToElement(target) {
+  if (!target) return;
+
+  closeMenu();
+
+  const headerOffset = (siteTop?.getBoundingClientRect().height || 0) + 22;
+  const targetTop = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+
+  window.scrollTo({
+    top: Math.max(0, targetTop),
+    left: 0,
+    behavior: "smooth",
+  });
+}
+
+function scrollToHash(hash, updateHistory = true) {
+  if (!hash) return false;
+
+  const targetId = decodeURIComponent(hash.slice(1));
+  const target = document.getElementById(targetId);
+  if (!target) return false;
+
+  scrollToElement(target);
+
+  if (updateHistory) {
+    history.pushState(null, "", hash);
+  }
+
+  return true;
+}
+
+anchorLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const href = link.getAttribute("href");
+    if (!href || href.startsWith("mailto:") || href.startsWith("tel:")) return;
+
+    const url = new URL(href, window.location.href);
+    if (!url.hash || !isSamePageUrl(url)) return;
+
+    event.preventDefault();
+    scrollToHash(url.hash);
+  });
+});
+
+window.addEventListener("load", () => {
+  if (!window.location.hash) return;
+
+  window.setTimeout(() => {
+    scrollToHash(window.location.hash, false);
+  }, 80);
+});
+
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeMenu();
@@ -32,7 +99,7 @@ methodCards.forEach((card) => {
     card.classList.add("active");
 
     if (card.dataset.method === "inquiry") {
-      inquiryTarget?.scrollIntoView({ behavior: "smooth", block: "start" });
+      scrollToElement(inquiryTarget);
     }
   });
 });
