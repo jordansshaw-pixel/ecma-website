@@ -1044,6 +1044,28 @@ button.method-card {
   border-top: 1px solid rgba(234, 215, 170, 0.18);
 }
 
+.footer-compliance {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  margin: 16px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(234, 215, 170, 0.18);
+}
+
+.footer-compliance img {
+  width: 76px;
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.footer-compliance p {
+  margin: 0;
+}
+
 @media (max-width: 1120px) {
   .site-header {
     grid-template-columns: minmax(120px, 156px) auto;
@@ -1207,6 +1229,10 @@ button.method-card {
   .process-grid,
   .field-pair,
   .site-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-compliance {
     grid-template-columns: 1fr;
   }
 

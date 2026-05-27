@@ -35,9 +35,13 @@ Prior Caliber-side ECMA concepts are archived and are not active build guidance 
 - First reference: `Emerald City Mortgage Advisors`
 - Second reference: `ECMA`
 - First mention of Scott: `Scott Warneke, Licensed Mortgage Loan Officer`
-- Preserve NEXA and NMLS disclosure handling.
+- Scott's license: `NMLS LIC 278008`
+- Parent brokerage: `NEXA Mortgage, LLC NMLS #1660690`
+- Arizona mortgage banker license reference supplied for footer disclosure: `AZMB #0944059`
+- Equal Housing logo is mandatory in the bottom footer on every public page.
+- Preserve NEXA, NMLS, AZMB, and Equal Housing disclosure handling.
 - Resolve active license footprint before public launch.
-- Do not publish unverified individual NMLS/license details.
+- Do not publish unverified state-service or state-license details.
 
 ## Current Known Rebuild Direction
 

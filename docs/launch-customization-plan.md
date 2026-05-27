@@ -101,20 +101,23 @@ These should be rewritten only after Scott/NEXA compliance confirms approved lan
 
 Required before launch:
 
-1. Confirm Scott Warneke's individual NMLS ID.
-2. Confirm exact required display format for:
+1. Use Scott Warneke's confirmed individual NMLS ID: `NMLS LIC 278008`.
+2. Use parent brokerage disclosure: `NEXA Mortgage, LLC NMLS #1660690`.
+3. Use Arizona mortgage banker license disclosure where required: `AZMB #0944059`.
+4. Include the Equal Housing logo at the bottom of every public page footer.
+5. Confirm exact required display format for:
    - Scott Warneke, Licensed Mortgage Loan Officer
-   - Individual NMLS ID
+   - NMLS LIC 278008
    - NEXA Mortgage, LLC NMLS #1660690
+   - AZMB #0944059
    - Any branch NMLS, state license numbers, or office identifiers
-3. Confirm active licensing footprint.
-4. Remove unsupported state references.
-5. Confirm whether Hawaii should be removed because internal notes say the license is suspended.
-6. Confirm whether Idaho should be removed because the current preview references Idaho but source context does not support it clearly.
-7. Confirm whether Iowa should appear at all, since internal notes mention a rookie LO in Iowa but not Scott's own active footprint.
-8. Confirm whether commercial lending claims are allowed and under what disclaimers.
-9. Confirm Equal Housing Lender / Equal Housing Opportunity icon and text requirements.
-10. Add `Terms and Conditions` and `Privacy Policy` pages or links before production launch.
+6. Confirm active licensing footprint.
+7. Remove unsupported state references.
+8. Confirm whether Hawaii should be removed because internal notes say the license is suspended.
+9. Confirm whether Idaho should be removed because the current preview references Idaho but source context does not support it clearly.
+10. Confirm whether Iowa should appear at all, since internal notes mention a rookie LO in Iowa but not Scott's own active footprint.
+11. Confirm whether commercial lending claims are allowed and under what disclaimers.
+12. Add `Terms and Conditions` and `Privacy Policy` pages or links before production launch.
 
 Conservative state-language rule for now:
 
@@ -142,7 +145,7 @@ Goal: replace generic `Team` section with a dedicated Scott-led trust page or se
 Content needed:
 
 - Scott Warneke, Licensed Mortgage Loan Officer.
-- Individual NMLS ID.
+- NMLS LIC 278008.
 - Years of experience, only if confirmed.
 - Approved bio and market focus.
 - Relationship to NEXA Mortgage, LLC.
@@ -345,7 +348,7 @@ Before launch:
 1. Keep GitHub Pages preview as the review environment.
 2. Do not point DNS away from Squarespace until content and compliance are ready.
 3. Create final content matrix for every page above.
-4. Confirm Scott's individual NMLS ID and active licensing footprint.
+4. Confirm active licensing footprint.
 5. Confirm approved NEXA, state, Equal Housing, VA/FHA/HUD, privacy, and terms language.
 6. Implement page structure and replace prototype copy.
 7. Build the tools section with educational disclaimers.
@@ -359,7 +362,6 @@ Before launch:
 
 ## Open Questions For Scott Or Compliance
 
-- What is Scott Warneke's individual NMLS ID?
 - What exact state licensing language is approved today?
 - Should Hawaii be removed from all public copy?
 - Should Idaho be removed from the preview entirely?
@@ -378,8 +380,10 @@ The site is ready for production only when:
 - No prototype/draft language remains.
 - All navigation links resolve.
 - No unapproved state pages or state claims remain.
-- Scott's individual NMLS ID is displayed where required.
+- Scott's NMLS LIC 278008 is displayed where required.
 - NEXA Mortgage, LLC NMLS #1660690 is displayed where required.
+- AZMB #0944059 is displayed where required.
+- Equal Housing logo appears at the bottom of every footer.
 - Phone, email, address, hours, social links, Floify, GHL, and review links are verified.
 - Tools include estimate-only disclaimers.
 - Terms, privacy, and compliance sections are present.
