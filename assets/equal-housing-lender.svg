@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 76" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 128" role="img" aria-labelledby="title desc">
   <title id="title">Equal Housing Lender</title>
   <desc id="desc">House outline with equal sign, representing Equal Housing Lender.</desc>
+  <rect width="144" height="128" fill="none"/>
   <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M8 38 48 8l40 30" stroke-width="7"/>
-    <path d="M20 34v32h56V34" stroke-width="7"/>
-    <path d="M34 42h28" stroke-width="6"/>
-    <path d="M34 54h28" stroke-width="6"/>
+    <path d="M18 56 72 17l54 39" stroke-width="9"/>
+    <path d="M34 51v44h76V51" stroke-width="9"/>
+    <path d="M52 65h40" stroke-width="8"/>
+    <path d="M52 82h40" stroke-width="8"/>
   </g>
-  <text x="48" y="74" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700" text-anchor="middle">EQUAL HOUSING LENDER</text>
+  <text x="72" y="118" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="middle">EQUAL HOUSING LENDER</text>
 </svg>
