@@ -1059,6 +1059,15 @@ textarea {
   border-radius: 16px;
 }
 
+.advisor-photo figcaption {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.86rem;
+  font-weight: 750;
+  letter-spacing: 0;
+  text-align: center;
+}
+
 .advisor-proof-list {
   display: grid;
   gap: 10px;
