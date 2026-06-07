@@ -840,7 +840,7 @@ textarea {
 
 .legal-badge {
   display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
+  grid-template-columns: 190px minmax(0, 1fr);
   gap: 18px;
   align-items: center;
 }
@@ -1623,7 +1623,7 @@ button.method-card {
 .footer-compliance {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 104px minmax(0, 1fr);
+  grid-template-columns: 232px minmax(0, 1fr);
   gap: 18px;
   align-items: center;
   margin: 16px 0 0;
@@ -1631,7 +1631,14 @@ button.method-card {
   border-top: 1px solid rgba(234, 215, 170, 0.18);
 }
 
-.footer-compliance img {
+.footer-compliance-logos {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-compliance img,
+.footer-compliance-logos img {
   width: 104px;
   margin: 0;
   border-radius: 0;
@@ -1640,6 +1647,30 @@ button.method-card {
 
 .footer-compliance p {
   margin: 0;
+}
+
+.footer-site-credit {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 4px;
+  margin-top: 4px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(234, 215, 170, 0.14);
+  text-align: center;
+}
+
+.footer-site-credit p {
+  margin: 0;
+}
+
+.footer-site-credit a {
+  color: rgba(234, 215, 170, 0.9);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-site-credit a:hover {
+  color: var(--white);
 }
 
 @media (max-width: 1120px) {
@@ -1823,6 +1854,10 @@ button.method-card {
 
   .footer-compliance {
     grid-template-columns: 1fr;
+  }
+
+  .footer-compliance-logos {
+    justify-content: center;
   }
 
   .calc-term-group {

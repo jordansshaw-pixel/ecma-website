@@ -22,7 +22,7 @@ The current GitHub Pages build is a useful preview, but it still contains protot
   - `/tools`
   - `/commercial`
   - `/contact-us`
-- ECMA setup questionnaire: `C:\LookingGlass\CLIENTS\ECMA\setup\questionnaire.md`
+- ECMA setup questionnaire: `C:\Users\jshaw\Command Center\ATX COMMAND CENTER\ECMA\setup\questionnaire.md`
 - Website source context: `docs/source-context.md`
 - Website design context: `docs/design-context.md`
 - GHL form plan: `docs/ghl-form-embed-plan.md`
@@ -103,13 +103,15 @@ Required before launch:
 
 1. Use Scott Warneke's confirmed individual NMLS ID: `NMLS LIC 278008`.
 2. Use parent brokerage disclosure: `NEXA Mortgage, LLC NMLS #1660690`.
-3. Use Arizona mortgage banker license disclosure where required: `AZMB #0944059`.
-4. Include the Equal Housing logo at the bottom of every public page footer.
+3. Remove Arizona mortgage banker license disclosure: `AZMB #0944059`.
+4. Include both the Equal Housing Lender logo and Equal Housing Opportunity logo at the bottom of every public page footer.
+5. Include corporate address: `5559 S Sossaman Rd Bldg #1 Ste #101 Mesa, AZ 85212`.
+6. Include NEXA NMLS Consumer Access link: `https://nmlsconsumeraccess.org/TuringTestPage.aspx?ReturnUrl=/EntityDetails.aspx/COMPANY/166069`.
 5. Confirm exact required display format for:
    - Scott Warneke, Licensed Mortgage Loan Officer
    - NMLS LIC 278008
    - NEXA Mortgage, LLC NMLS #1660690
-   - AZMB #0944059
+   - Corporate address: 5559 S Sossaman Rd Bldg #1 Ste #101 Mesa, AZ 85212
    - Any branch NMLS, state license numbers, or office identifiers
 6. Confirm active licensing footprint.
 7. Remove unsupported state references.
@@ -382,8 +384,9 @@ The site is ready for production only when:
 - No unapproved state pages or state claims remain.
 - Scott's NMLS LIC 278008 is displayed where required.
 - NEXA Mortgage, LLC NMLS #1660690 is displayed where required.
-- AZMB #0944059 is displayed where required.
-- Equal Housing logo appears at the bottom of every footer.
+- AZMB #0944059 is removed.
+- Equal Housing Lender and Equal Housing Opportunity logos appear at the bottom of every footer.
+- NEXA NMLS Consumer Access link appears with the NEXA NMLS disclosure.
 - Phone, email, address, hours, social links, Floify, GHL, and review links are verified.
 - Tools include estimate-only disclaimers.
 - Terms, privacy, and compliance sections are present.

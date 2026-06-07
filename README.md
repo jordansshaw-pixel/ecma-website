@@ -6,13 +6,15 @@ This repository is intentionally minimal right now. The website stack, page stru
 
 ## Purpose
 
-Create a clean implementation home for the ECMA site rebuild without mixing live site code into the LookingGlass client-planning workspace.
+Create a clean implementation home for the ECMA site rebuild without mixing live site code into the ATX client-planning workspace.
 
 ## Source Of Truth
 
 Primary strategy, audit, brand, and compliance source material stays in:
 
-`C:\LookingGlass\CLIENTS\ECMA`
+`C:\Users\jshaw\Command Center\ATX COMMAND CENTER\ECMA`
+
+Legacy LookingGlass paths may appear in older docs and archives. Treat them as historical reference only unless the ATX ECMA workspace explicitly marks a file active.
 
 Useful source pointers are collected in:
 

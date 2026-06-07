@@ -1,7 +1,7 @@
 # ECMA Website Design Context
 
 Date added: 2026-05-22
-Primary source archive: `C:\LookingGlass\CLIENTS\ECMA\_archive\2026-05-26-prior-ecma-website-work\ecma-website-build-summary-input_2026-05-21.md`
+Primary source archive: `C:\Users\jshaw\Command Center\ATX COMMAND CENTER\ECMA\_archive\2026-05-26-prior-ecma-website-work\ecma-website-build-summary-input_2026-05-21.md`
 Preview source: `https://jordansshaw-pixel.github.io/ecma-website-visual-aid-preview/`
 Preview repo archive: `C:\Dev\_archive\2026-05-26-prior-ecma-website-work\ecma-website-visual-aid-preview`
 
@@ -134,7 +134,7 @@ Relevant source files:
 - `C:\Dev\_archive\2026-05-26-prior-ecma-website-work\ecma-website-visual-aid-preview\index.html`
 - `C:\Dev\_archive\2026-05-26-prior-ecma-website-work\ecma-website-visual-aid-preview\design-corpus.html`
 - `C:\Dev\_archive\2026-05-26-prior-ecma-website-work\ecma-website-visual-aid-preview\design-corpus-source-notes.md`
-- `C:\LookingGlass\CLIENTS\ECMA\_archive\2026-05-26-prior-ecma-website-work\website-design-decision-workflow\07_visual-aid\scott-website-process-playbook.md`
+- `C:\Users\jshaw\Command Center\ATX COMMAND CENTER\ECMA\_archive\2026-05-26-prior-ecma-website-work\website-design-decision-workflow\07_visual-aid\scott-website-process-playbook.md`
 
 Current recommendation from the design corpus:
 

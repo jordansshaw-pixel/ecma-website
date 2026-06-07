@@ -18,8 +18,10 @@ Address: 914 164th St SE #381, Mill Creek, WA 98012
 
 Licensing
 Scott Warneke | NMLS# 278008 | Licensed in WA, CA, FL, ID
-NEXA Mortgage, LLC | NMLS# 1660690 | AZMB #0944059
-Equal Housing Lender
+NEXA Mortgage, LLC | NMLS# 1660690
+Corporate address: 5559 S Sossaman Rd Bldg #1 Ste #101 Mesa, AZ 85212
+NEXA NMLS Consumer Access: https://nmlsconsumeraccess.org/TuringTestPage.aspx?ReturnUrl=/EntityDetails.aspx/COMPANY/166069
+Equal Housing Lender and Equal Housing Opportunity
 Pages
 
 Home: https://jordansshaw-pixel.github.io/ecma-website/

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 128" role="img" aria-labelledby="title desc">
+  <title id="title">Equal Housing Opportunity</title>
+  <desc id="desc">House outline with equal sign, representing Equal Housing Opportunity.</desc>
+  <rect width="144" height="128" fill="none"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 56 72 17l54 39" stroke-width="9"/>
+    <path d="M34 51v44h76V51" stroke-width="9"/>
+    <path d="M52 65h40" stroke-width="8"/>
+    <path d="M52 82h40" stroke-width="8"/>
+  </g>
+  <text x="72" y="116" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="middle">EQUAL HOUSING</text>
+  <text x="72" y="127" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" text-anchor="middle">OPPORTUNITY</text>
+</svg>
